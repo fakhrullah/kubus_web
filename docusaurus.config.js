@@ -68,6 +68,9 @@ module.exports = {
         },
       ],
       copyright: `Copyright © ${new Date().getFullYear()} @fajarhac. Built with Docusaurus.`,
+      // Google analytiv
+      gaTrackingId: 'UA-42750664-3',
+      gTag: true,
     },
   },
   presets: [
@@ -94,4 +97,5 @@ module.exports = {
       },
     ],
   ],
+
 };
