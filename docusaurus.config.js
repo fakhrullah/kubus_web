@@ -6,7 +6,15 @@ module.exports = {
   favicon: 'img/favicon.ico',
   organizationName: 'fakhrullah', // Usually your GitHub org/user name.
   projectName: 'kubus_web', // Usually your repo name.
+  plugins: [
+    require.resolve('@docusaurus/plugin-google-gtag'),
+  ],
   themeConfig: {
+    // Google analytic
+    gtag: {
+      trackingID: 'UA-42750664-3',
+      anonymizeIP: true, // Should IPs be anonymized?
+    },
     navbar: {
       title: 'KUBuS',
       logo: {
@@ -68,9 +76,6 @@ module.exports = {
         },
       ],
       copyright: `Copyright © ${new Date().getFullYear()} @fajarhac. Built with Docusaurus.`,
-      // Google analytiv
-      gaTrackingId: 'UA-42750664-3',
-      gTag: true,
     },
   },
   presets: [
