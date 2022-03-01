@@ -8,7 +8,7 @@ on:
 
 env:
   IMAGE_NAME: kubus_web
-  ORG: fajarhac
+  ORG: ${{ github.actor }}
   ITEM: KUBUS_WEB
 
 jobs:
