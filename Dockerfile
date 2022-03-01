@@ -1,4 +1,4 @@
-FROM mhart/alpine-node:12 AS builder
+FROM mhart/alpine-node:16 AS builder
 WORKDIR /app
 COPY . .
 RUN npm i
