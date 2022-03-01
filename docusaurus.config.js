@@ -7,14 +7,16 @@ module.exports = {
   organizationName: 'fakhrullah', // Usually your GitHub org/user name.
   projectName: 'kubus_web', // Usually your repo name.
   plugins: [
-    require.resolve('@docusaurus/plugin-google-gtag'),
+    // Google analytic
+    [
+      '@docusaurus/plugin-google-gtag',
+      {
+        trackingID: 'UA-42750664-3',
+        anonymizeIP: true, // Should IPs be anonymized?
+      },
+    ],
   ],
   themeConfig: {
-    // Google analytic
-    gtag: {
-      trackingID: 'UA-42750664-3',
-      anonymizeIP: true, // Should IPs be anonymized?
-    },
     navbar: {
       title: 'KUBuS',
       logo: {
@@ -28,7 +30,7 @@ module.exports = {
           label: 'Docs',
           position: 'left',
         },
-        {to: 'blog', label: 'Blog', position: 'left'},
+        { to: 'blog', label: 'Blog', position: 'left' },
         {
           href: 'https://github.com/fakhrullah/kubus_web',
           label: 'GitHub',
