@@ -1,9 +1,12 @@
 module.exports = {
   someSidebar: {
-    'KUBuS Documentation': [
+    'KUBUS Documentation': [
       'doc1',
       // 'doc2',
-      // 'doc3'
+      // 'doc3',
+    ],
+    'Terms & Policy': [
+      'privacy-policy',
     ],
     // Features: ['mdx'],
   },

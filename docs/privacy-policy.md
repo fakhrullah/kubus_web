@@ -1,3 +1,10 @@
+---
+id: privacy-policy
+title: Privacy Poliy
+sidebar_label: Privacy Policy
+# slug: /
+---
+
 # Privacy Policy
 
 Fajarhac Technology built the Kubus App app as an Ad Supported app. This SERVICE is provided by Fajarhac Technology at no cost and is intended for use as is.
