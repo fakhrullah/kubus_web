@@ -59,7 +59,7 @@ module.exports = {
           items: [
             {
               label: 'Twitter',
-              href: 'https://twitter.com/fajarhac',
+              href: 'https://twitter.com/kubus_app',
             },
           ],
         },
@@ -89,13 +89,13 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+            'https://github.com/fakhrullah/kubus_web/edit/master/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
+            'https://github.com/fakhrullah/kubus_web/edit/master/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
