@@ -1,6 +1,6 @@
 module.exports = {
-  title: 'KUBuS',
-  tagline: 'Kuiz Untuk Budak Sekolah',
+  title: 'KUBUS',
+  tagline: '',
   url: 'https://kubus.fajarhac.com',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
