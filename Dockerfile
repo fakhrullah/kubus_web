@@ -1,4 +1,4 @@
-FROM mhart/alpine-node:16 AS builder
+FROM docker.io/node:lts-alpine3.18 AS builder
 WORKDIR /app
 COPY . .
 RUN npm i
