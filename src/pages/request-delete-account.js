@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import Layout from "@theme/Layout";
 
-const URL_REQUEST_DELETE_ACCOUNT_API = 'https://dev-kubusback.fajarhac.com/functions/deleteAccount';
+const URL_REQUEST_DELETE_ACCOUNT_API = 'https://kubusback.fajarhac.com/functions/deleteAccount';
 // const URL_REQUEST_DELETE_ACCOUNT_API = 'http://localhost:30202/functions/deleteAccount';
-const URL_APP_ID = 'kubus_back_dev';
+const URL_APP_ID = 'kubus_back_production';
 
 function RequestDeleteAccount() {
   const [isLoading, setIsLoading] = useState(false);
