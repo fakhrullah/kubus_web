@@ -23,3 +23,44 @@
   margin: 0 calc(-1 * var(--ifm-pre-padding));
   padding: 0 var(--ifm-pre-padding);
 }
+
+.myform {
+  max-width: 600px;
+}
+.myform__row {
+  display: flex;
+}
+.myform__row > label,
+.myform__row > input,
+.myform__row > button {
+  display: block;
+  padding: 4px;
+}
+.myform__row > input {
+  flex-grow: 1;
+  background-color: #eee;
+  border: solid 1px #bbb;  
+  border-radius: 4px;
+  margin: 0 4px;
+}
+
+.mybox {
+  width: 100%;
+  padding: 8px 0;
+  margin: 0;
+}
+
+.mybox__error {
+  width: 100%;
+  padding: 8px 16px;
+  margin: 0;
+  color: #3f2323;
+  background-color: #ffbbbb;
+}
+.mybox__success {
+  width: 100%;
+  padding: 8px 16px;
+  margin: 0;
+  color: green;
+  background-color: lightgreen;
+}

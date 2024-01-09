@@ -8,6 +8,7 @@ module.exports = {
     ],
     'Terms & Policy': [
       'privacy-policy',
+      'request-account-deletion'
     ],
     // Features: ['mdx'],
   },
