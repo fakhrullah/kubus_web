@@ -9,7 +9,7 @@ import styles from './styles.module.css';
 const features = [
   {
     title: <>Belajar Di Mana Sahaja</>,
-    imageUrl: 'img/undraw_docusaurus_mountain.svg',
+    imageUrl: 'img/undraw_into_the_night_vumi.svg',
     description: (
       <>
         Ada smartphone? Di rumah, di sekolah, di hutan belantara, di pulau dan di mana-mana sahaja,
@@ -20,7 +20,7 @@ const features = [
   },
   {
     title: <>Kuiz Hanya untuk Anda</>,
-    imageUrl: 'img/undraw_docusaurus_react.svg',
+    imageUrl: 'img/undraw_segment_analysis_re_ocsl.svg',
     description: (
       <>
         Teknologi kepintaran buatan dan pembelajaran mesin akan digunakan untuk menghasilkan kuiz yang berbeza pada setiap individu. 
@@ -30,7 +30,7 @@ const features = [
   },
   {
     title: <>Hak Milik Rakyat</>,
-    imageUrl: 'img/undraw_docusaurus_tree.svg',
+    imageUrl: 'img/undraw_around_the_world_re_rb1p.svg',
     description: (
       <>
         Koleksi pangkalan data kuiz yang datang dari rakyat dikembalikan kepada rakyat. <br />

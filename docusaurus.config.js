@@ -21,7 +21,7 @@ module.exports = {
       title: 'KUBuS',
       logo: {
         alt: 'KUBuS',
-        src: 'img/logo.svg',
+        src: 'img/kubus_app-icon.svg',
       },
       items: [
         {
