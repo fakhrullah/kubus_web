@@ -168,30 +168,30 @@ This line is also a separate paragraph, but... This line is only separated by a 
 
 :::note
 
-This is a note
+Some **content** with _Markdown_ `syntax`. Check [this `api`](#).
 
 :::
 
 :::tip
 
-This is a tip
+Some **content** with _Markdown_ `syntax`. Check [this `api`](#).
 
 :::
 
-:::important
+:::info
 
-This is important
-
-:::
-
-:::caution
-
-This is a caution
+Some **content** with _Markdown_ `syntax`. Check [this `api`](#).
 
 :::
 
 :::warning
 
-This is a warning
+Some **content** with _Markdown_ `syntax`. Check [this `api`](#).
+
+:::
+
+:::danger
+
+Some **content** with _Markdown_ `syntax`. Check [this `api`](#).
 
 :::
