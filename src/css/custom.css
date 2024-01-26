@@ -36,6 +36,7 @@
   display: block;
   padding: 4px;
 }
+
 .myform__row > input {
   flex-grow: 1;
   background-color: #eee;
@@ -43,6 +44,10 @@
   border-radius: 4px;
   margin: 0 4px;
 }
+[data-theme='dark'] .myform__row > input {
+  background-color: #555;
+}
+
 
 .mybox {
   width: 100%;
